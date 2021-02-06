@@ -6,10 +6,6 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-
-    buildFeatures {
-        viewBinding = true
-    }
     
     defaultConfig {
         applicationId "com.example.tiptime"
@@ -19,6 +15,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 
     buildTypes {
